@@ -1,4 +1,4 @@
-FROM php:7.3.18-fpm
+FROM php:7.4.28-fpm
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -16,7 +16,6 @@ RUN apt-get update && apt-get install -y \
     default-mysql-client \
     ca-certificates \
     fonts-liberation \
-    libappindicator3-1 \
     libasound2 \
     libatk-bridge2.0-0 \
     libatk1.0-0 \
